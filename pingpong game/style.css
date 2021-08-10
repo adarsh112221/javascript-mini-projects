@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+}
+#box
+{
+    display: inline-block;
+    height: 99vh;
+    width: 80vw;
+    border: 0.3px solid rgb(118, 84, 173) ;
+    margin-left: 10vw;
+    margin-top: 0;
+}
+#rod1
+{
+    height: 2vh;
+    width: 15vw;
+    background-color:rgb(124, 124, 131);
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    text-align: center;
+    position:absolute;
+
+}
+#rod2
+{
+    height: 2vh;
+    width: 15vw;
+    background-color:rgb(124, 124, 131);
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top:96.6vh ;
+    position:absolute;
+}
+#ball
+{
+    height: 2vh;
+    width: 2vh;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 2.1vh;
+}
+#score
+{
+    position: absolute;
+    left: 0.1%;
+text-transform: uppercase;
+font-size: 1.2rem;
+}
+#score p
+{
+    margin: 0;
+}
+#score span
+{
+    display: inline-block;
+}
