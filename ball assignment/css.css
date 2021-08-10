@@ -1,0 +1,15 @@
+#first
+{
+    border: 2px solid black;
+min-height: 60vh;
+width: 100%;
+}
+#second
+{
+    position: absolute;
+    min-height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: cyan;
+}
