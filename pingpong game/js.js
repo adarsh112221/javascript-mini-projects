@@ -10,6 +10,7 @@ var ballspeedx = 3;
 var ballspeedy = 3;
 var ballx = balld.x;
 var bally = balld.y;
+window.onresize = function(){ location.reload(); }
 var gameon=false;
 function setdefault(rod)
 {
